@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Anthony STANIX</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="description" content="Portfolio Anthony STANIX développeur web Junior">
     <meta name="author" content="STANIX Anthony Portfolio 2021">
+    <title>Portfolio - Anthony STANIX</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div id="french">
 
-
-        <nav class="green">
-            <ul>
-                <li><a href="#about">A propos</a></li>
-                <li><a href="#skills">Compétences</a></li>
-                <li><a href="#portfolio">Réalisations</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><img src="Assets/union-jack.jpg" alt="union Jack" id="translate"></li>
-            </ul>
-        </nav>
    <header class="green">
-    
+    <nav class="green">
+        <ul>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#portfolio">Réalisations</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><img src="Assets/img/union-jack.png" alt="union Jack" id="translate"></li>
+        </ul>
+    </nav>
     <h1>Anthony STANIX</h1>
     <div>
         <p>Développeur Web Junior</p>
@@ -33,6 +34,7 @@
 
     <section id="about" class="white">
         <h2>A propos</h2>
+        <img src="Assets/img/Anthony.png" alt="Anthony STANIX">
         <article id="description">
         <p>À la suite d’une reconversion professionnelle où j’étais en charge de la communication externe notamment de l’activité des 
         réseaux sociaux et du contenu du site internet. J’ai développé un intérêt pour le développement web, j’ai commencé à 
@@ -58,7 +60,6 @@
          MOOC ou du code avec du rap US ou du Jazz dans les oreilles. Ou encore en pleine séance de musculation pour me défouler et me vider
         la tête.</p>
         </article>
-        <img src="Assets/Anthony.jpg" alt="Anthony STANIX">
     </section>
 
 
@@ -70,13 +71,13 @@
             ainsi qu’en CSS3 vanille et avec le préprocesseur Sass. J’ai développé ma pratique du langage JavaScript avec la librairie jQuery. 
             Je suis capable de faire de l’intégration de code et le mettre en forme ou faire des animations avec CSS, sur un CMS par exemple. 
             Dans la même mesure, je suis capable de créer une page statique, contenant des interactions client via JavaScript, d’après une 
-            maquette. Également à l’aise sur le CMS Wordpress, je travaille avec les constructeur Elementor.</p>
+            maquette. Également à l’aise sur le CMS Wordpress, je travaille avec le constructeur Elementor.</p>
         </article>
         <article class="back">
             <h3>Back-end</h3>
             <p>Ma première approche du back office en autodidacte a été celle de Wordpress, bien loin du développement Back-end que l’on entend. 
             Par la suite, j’ai développé mes connaissances sur le langage PHP avec la programmation orientée objets, son architecture en MVC ainsi 
-            que son Framework Synfony avec la gestion de données par ORM. Pour travailler en local je suis habitué à Xampp et Mamp, intervenant 
+            que son Framework Synfony avec la gestion de données par ORM. Pour travailler en local je suis habitué à Xampp, intervenant 
             principalement sur le système de gestion de base de données MariaDB. J’utilise depuis peu GitHub pour le versionning de mon code.</p>
         </article>
         <article class="maketing">
@@ -92,30 +93,37 @@
 
     <section id="portfolio" class="white">
         <h2>Réalisations</h2>
-        <article class="coach">
+        <!-- <article class="coach">
             <h3>Site promotionnel de mon ancien métier de coach sportif</h3>
             <p>Site créé avec Wordpress et Elementor</p>
-            <a href=""><img src="" alt="site coach"></a>
-        </article>
+            <a href="" target="_blank" ><img src="" alt="site coach"></a>
+        </article> -->
         <article class="commerceEnsemble">
+            <a href="https://commerce-ensemble.fr/" target="_blank">
             <h3>Plateforme collaborative pour les commerçants</h3>
+            <img src="Assets/img/Commerce_ensemble.PNG" alt="site collaboratif">
             <p>Projet final de fin de formation</p>
-            <a href=""><img src="" alt="site collaboratif"></a>
+        </a>
         </article>
         <article class="commerceEnsembleCDC">
-            <h3>Cahier des charges de la Plateforme collaborative pour les commerçants</h3>
+            <h3>Cahier des charges pour le site des commerçants</h3>
+            <img src="Assets/img/specifications.png" alt="cahier des charges">
             <p>Projet final de fin de formation</p>
-            <a href=""><img src="" alt="cahier des charges site collaboratif"></a>
         </article>
-        <article class="shareIt">
+        <!-- <article class="shareIt">
             <h3>Clone de smash/wetransfer</h3>
             <p>Exercice de formation sur PHP orienté objet</p>
             <a href=""><img src="" alt="site de transfert"></a>
-        </article>
+        </article> -->
     </section>
 
     <section id="contact" class="green">
-        <form action="">
+        <h2>Contact</h2>
+        <article>
+            <a href="mailto:anthony.stanix@gmail.com">Me contacter par email</a>
+            <a href="assets/pdf/Anthony-Stanix_CV.pdf" target="new">Télécharger mon CV</a>
+        </article>
+        <!-- <form action="">
             <input type="text" id="name" name="name" placeholder="Nom" required>
             <input type="email" id="email" name="email" placeholder="Email" required>
             <textarea name="message" id="message" cols="30" rows="4" placeholder="Message" required></textarea>
@@ -128,7 +136,7 @@
 
         <div id="alertWarning" style="display:none;">
             Erreur, veuillez remplir entièrement le formulaire.
-        </div>
+        </div> -->
     </section>
 
     </div>
@@ -141,7 +149,7 @@
                  <li><a href="#skills">Skills</a></li>
                  <li><a href="#portfolio">Productions</a></li>
                  <li><a href="#contact">Contact</a></li>
-                 <li><img src="Assets/drapeau français.png" alt="drapeau français" id="traduire"></li>
+                 <li><img src="Assets/img/drapeau français.png" alt="drapeau français" id="traduire"></li>
              </ul>
          </nav>
          <h1>Anthony STANIX</h1>
@@ -153,6 +161,7 @@
      
          <section id="about" class="white">
              <h2>About me</h2>
+             <img src="Assets/img/Anthony.png" alt="Anthony STANIX">
              <article id="description">
              <p>Following a career change where I was in charge of the communication on the social network and on the web site. My interest 
             for the web développement grew and I begun to learn the code’s bases by myself.</p>
@@ -175,7 +184,6 @@
             the  sustainable development whose are as many topics as important to me. Maybe I would be in a MOOC or in a source code during I 
             would listening Rap or Jazz music. Else if I spend my time in a gym to push weight to cleare my mind.</p>
              </article>
-             <img src="Assets/Anthony.jpg" alt="Anthony STANIX">
          </section>
      
      
@@ -206,31 +214,38 @@
      
      
          <section id="portfolio" class="white">
-             <h2>Productions</h2>
-             <article class="coach">
-                 <h3>Site promotionnel de mon ancien métier de coach sportif</h3>
-                 <p>Site créé avec Wordpress et Elementor</p>
-                 <a href=""><img src="" alt="site coach"></a>
-             </article>
-             <article class="commerceEnsemble">
-                 <h3>Plateforme collaborative pour les commerçants</h3>
-                 <p>Projet final de fin de formation</p>
-                 <a href=""><img src="" alt="site collaboratif"></a>
-             </article>
-             <article class="commerceEnsembleCDC">
-                 <h3>Cahier des charges de la Plateforme collaborative pour les commerçants</h3>
-                 <p>Projet final de fin de formation</p>
-                 <a href=""><img src="" alt="cahier des charges site collaboratif"></a>
-             </article>
-             <article class="shareIt">
-                 <h3>Clone de smash/wetransfer</h3>
-                 <p>Exercice de formation sur PHP orienté objet</p>
-                 <a href=""><img src="" alt="site de transfert"></a>
-             </article>
-         </section>
+            <h2>Réalisations</h2>
+            <!-- <article class="coach">
+                <h3>Site promotionnel de mon ancien métier de coach sportif</h3>
+                <p>Site créé avec Wordpress et Elementor</p>
+                <a href="" target="_blank" ><img src="" alt="site coach"></a>
+            </article> -->
+            <a href="https://commerce-ensemble.fr/" target="_blank">
+            <article class="commerceEnsemble">
+                <h3>Plateforme collaborative pour les commerçants</h3>
+                <img src="Assets/img/Commerce_ensemble.PNG" alt="site collaboratif">
+                <p>Study project</p>
+            </article>
+            </a>
+            <article class="commerceEnsembleCDC">
+                <h3>Functionnal and technical specifications</h3>
+                <img src="Assets/img/specifications.png" alt="specifications">
+                <p>Study project</p>
+            </article>
+            <!-- <article class="shareIt">
+                <h3>Clone de smash/wetransfer</h3>
+                <p>Exercice de formation sur PHP orienté objet</p>
+                <a href=""><img src="" alt="site de transfert"></a>
+            </article> -->
+        </section>
      
          <section id="contact" class="green">
-             <form action="">
+            <h2>Contact</h2>
+            <article>
+                <a href="mailto:anthony.stanix@gmail.com">Send me an email</a>
+                <a href="assets/pdf/Anthony-Stanix_CV.pdf" target="new">Download my CV</a>
+            </article>
+             <!-- <form action="">
                  <input type="text" id="name" name="name" placeholder="Name" required>
                  <input type="email" id="email" name="email" placeholder="Email" required>
                  <textarea name="message" id="message" cols="30" rows="4" placeholder="Message" required></textarea>
@@ -243,17 +258,17 @@
      
              <div id="alertWarning" style="display:none;">
                  Erreur, veuillez remplir entièrement le formulaire.
-             </div>
+             </div> -->
          </section>
      
-         </div>
+    </div>
 
     <footer>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/anthony-stanix-714a13155" target="_blank"><img src="Assets/Linkedin.png" alt="LinkedIn"></a></li>
-            <li><a href="https://github.com/StAntho" target="_blank"><img src="Assets/github.png" alt="GitHub"></a></li>
-            <li>&copy; 2021 Anthony STANIX</li>
-        </ul>    
+        <div>
+            <a href="https://www.linkedin.com/in/anthony-stanix-714a13155" target="_blank"><img src="Assets/img/Linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/StAntho" target="_blank"><img src="Assets/img/github.png" alt="GitHub"></a>
+        </div>  
+        <p>&copy; 2021 Anthony STANIX</p>  
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
